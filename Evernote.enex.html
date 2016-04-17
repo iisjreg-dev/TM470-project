@@ -1,0 +1,228 @@
+<html>
+<head>
+  <title>Evernote Export</title>
+  <basefont face="Verdana" size="2" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="exporter-version" content="Evernote Windows/277915; Windows/10.0.10586 (Win64);"/>
+  <style>
+    body, td {
+      font-family: Verdana;
+      font-size: 10pt;
+    }
+  </style>
+</head>
+<body>
+<a name="3918"/>
+<h1>Development and TMA</h1>
+<div>
+<table bgcolor="#D4DDE5" border="0">
+<tr><td><b>Created:</b></td><td><i>10/04/2016 21:07</i></td></tr>
+</table>
+</div>
+<br/>
+
+<div><span style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>5 hours.<br/>Continued fleshing out the prototype. Working on the front- and back-end at the same time has proven much more productive (after resolving most of the authentication issues). Working with external APIs also has meant that adding a feature involves a lot more debugging, testing and documentation but I am gaining a lot of experience.<div><br/></div>The TMA is going slowly again as I struggle to know what to write. I should look back at my previous TMA reflection and try to think about how I got past this before.</div></span>
+</div>
+<hr>
+<a name="3916"/>
+<h1>Fleshing out prototype</h1>
+<div>
+<table bgcolor="#D4DDE5" border="0">
+<tr><td><b>Created:</b></td><td><i>07/04/2016 01:05</i></td></tr>
+</table>
+</div>
+<br/>
+
+<div><span style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>4 hours.<br/>Decided to quickly add in the front-end and business logic for the major aspects of the prototype: Events and Matches. This was successful and made me realise that I should have diversified my development a bit earlier to not get stuck and demoralised. I also added in the live search for games with the Board Game Geek API.</div></span>
+</div>
+<hr>
+<a name="3871"/>
+<h1>TMA prep</h1>
+<div>
+<table bgcolor="#D4DDE5" border="0">
+<tr><td><b>Created:</b></td><td><i>05/04/2016 22:09</i></td></tr>
+</table>
+</div>
+<br/>
+
+<div>
+<span><div>3 hours.</div><div>Taken some time to go over the previous TMA and its feedback, as well as the requirements for TMA 02, gathering evidence and materials, such as photos from the group and initial user comments.</div></span>
+</div>
+<hr>
+<a name="3872"/>
+<h1>More fixes</h1>
+<div>
+<table bgcolor="#D4DDE5" border="0">
+<tr><td><b>Created:</b></td><td><i>01/04/2016 21:17</i></td></tr>
+</table>
+</div>
+<br/>
+
+<div>
+<span><div>3 hours.</div><div>Spent more time trying to fix authorisation but I think that it is all working now, along with user details updating correctly. Started to move both sign up and login to pages with AJAX calls, so that the API is more API-like, in sending http responses rather than redirects.</div></span>
+</div>
+<hr>
+<a name="3873"/>
+<h1>Fixing authorisation and logging</h1>
+<div>
+<table bgcolor="#D4DDE5" border="0">
+<tr><td><b>Created:</b></td><td><i>31/03/2016 21:13</i></td></tr>
+</table>
+</div>
+<br/>
+
+<div>
+<span><div>5 hours.</div><div>Spent the afternoon including some more logging of server requests, so that I can better see what is happening when. Managed to cover most areas except the Passport middleware, which doesn't have access to the request. Will probably move towards a fuller featured logging tool in the future.</div><div>Spent adding hashing and salting to the password storage to improve security, and finding more and more problems with the authorisation code. Took some time away from the code to read more about security.</div></span>
+</div>
+<hr>
+<a name="3874"/>
+<h1>Catching up, development and debugging</h1>
+<div>
+<table bgcolor="#D4DDE5" border="0">
+<tr><td><b>Created:</b></td><td><i>31/03/2016 02:06</i></td></tr>
+</table>
+</div>
+<br/>
+
+<div><span style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>9 hours.<br/>After some time away from studying, it took a while to get back into development and remember exactly where I was - I'll need to work out a method of keeping track of exactly what has been done. I should really leave fuller git commit messages and perhaps I should add code comments to <b><span style="background-color:#fffaa5;-evernote-highlight:true;">all</span></b> additions and changes (git shows code differences, so maybe I can use that to make notes before committing).<div><br/></div>I began work on the front-end as a change of 'scenery' but quickly came up against the shortcuts I took working on the back-end, like page rendering and http redirects instead of http response messages and status codes. Implementing the front-end has also created a lot of work in routing and structure - today it definitely feels like I have made this project too complicated and I wonder if I will be able to complete the later features. In particular, I am still doing so much reading and learning, that actual progress is slow and made worse with bugs and unclear documentation.</div></span>
+</div>
+<hr>
+<a name="3875"/>
+<h1>Learning</h1>
+<div>
+<table bgcolor="#D4DDE5" border="0">
+<tr><td><b>Created:</b></td><td><i>05/03/2016 18:30</i></td></tr>
+</table>
+</div>
+<br/>
+
+<div><span style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>4 hours.<div><br/></div>Spent some time today learning more about Node modules, Passport authentication and Express routing. A lot more confident in my understanding of the server platform. </div></span>
+</div>
+<hr>
+<a name="3876"/>
+<h1>More Exploration</h1>
+<div>
+<table bgcolor="#D4DDE5" border="0">
+<tr><td><b>Created:</b></td><td><i>04/03/2016 22:36</i></td></tr>
+</table>
+</div>
+<br/>
+
+<div>
+<span><div>3 hours.</div><div><br/></div><div>A little reading on accessibility and ARIA tags. Installed Colour Contrast Analyser for later use to determine suitable colours.</div><div><br/></div><div>Started investigating and experimenting with Passport user authentication. Was a lot more complicated than I thought. May need to reconsider my structure slightly.</div></span>
+</div>
+<hr>
+<a name="3877"/>
+<h1>Exploration</h1>
+<div>
+<table bgcolor="#D4DDE5" border="0">
+<tr><td><b>Created:</b></td><td><i>01/03/2016 17:42</i></td></tr>
+</table>
+</div>
+<br/>
+
+<div>
+<span><div>1 hour.</div><div><br clear="none"/></div><div>I installed the BoardGameGeek (BGG) API node.js package to test it out - tested it with pulling user profile info for my username. It seems to work nicely.</div><div><br clear="none"/></div><div>Have also installed Passport and passport-local for basic user authentication and Angular-socket-io for Socket to work nicely with Angular. Passport gives the ability to allow other types of login, such as twitter &amp; facebook.</div><div><br clear="none"/></div><div>Installed Angular Batarang Chrome extension to allow for debugging of Angular apps.</div><div><br clear="none"/></div><div>TODO: need to examine the Angular-Express seed project for best practice in structuring the app.</div></span>
+</div>
+<hr>
+<a name="3878"/>
+<h1>Finishing up TMA</h1>
+<div>
+<table bgcolor="#D4DDE5" border="0">
+<tr><td><b>Created:</b></td><td><i>01/03/2016 01:22</i></td></tr>
+</table>
+</div>
+<br/>
+
+<div>
+<span><div>5 hours.</div><div><br/></div><div>Finishing up the TMA, writing the reflection and proof reading. I feel more positive about the assignment but have exceeded the word count guide. Downloaded a copy of the study guide material on reflections, so that I can better reflect before and during my work.</div><div><br/></div><div>TMA submitted.</div><div><br/></div></span>
+</div>
+<hr>
+<a name="3879"/>
+<h1>Setting up and Writing up</h1>
+<div>
+<table bgcolor="#D4DDE5" border="0">
+<tr><td><b>Created:</b></td><td><i>28/02/2016 21:07</i></td></tr>
+</table>
+</div>
+<br/>
+
+<div>
+<span><div>5 hours.</div><div><br/></div><div>Further writing up of TMA. Still not sure how well it reads. I will complete the reflection and formatting tomorrow.</div><div><br/></div><div>Setting up of Cloud9 environment - installing node, etc. Did some reading on git deployment. Planning API development. Looking at various javascript libraries for making the application look pretty and work smoothly.</div><div><br/></div><div>Had issues with git, trying to clone the development repo to my local machine - issues with local changes. Had to delete the local repo, go back to the cloud9 instance and force push to github to reset the repo and remove the recent, broken commits, then re-clone back to the local machine. All seems ok now.</div><div><br/></div><div><br/></div></span>
+</div>
+<hr>
+<a name="3880"/>
+<h1>Writing up</h1>
+<div>
+<table bgcolor="#D4DDE5" border="0">
+<tr><td><b>Created:</b></td><td><i>27/02/2016 17:58</i></td></tr>
+</table>
+</div>
+<br/>
+
+<div>
+<span><div>3 hours.</div><div><br/></div><div>Writing up of requirements notes from discussions earlier in the week. Continued writing up of TMA. Investigates some JavaScript tools and plugins.</div><div><br/></div><div>Struggling to find a voice or &quot;tone&quot; in the TMA as there are so many required sections and topics to cover. Will take a break a try to consolidate thoughts.</div></span>
+</div>
+<hr>
+<a name="3881"/>
+<h1>Pictures of venue</h1>
+<div>
+<table bgcolor="#D4DDE5" border="0">
+<tr><td><b>Created:</b></td><td><i>24/02/2016 16:54</i></td></tr>
+</table>
+</div>
+<br/>
+
+<div><span style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div><img src="Evernote.enex_files/20160223_193900.jpeg" type="image/jpeg"/></div><div><img src="Evernote.enex_files/20160223_193935.jpeg" type="image/jpeg"/></div><div></div></span>
+</div>
+<hr>
+<a name="3884"/>
+<h1>Initial requirements discussion</h1>
+<div>
+<table bgcolor="#D4DDE5" border="0">
+<tr><td><b>Created:</b></td><td><i>23/02/2016 23:00</i></td></tr>
+</table>
+</div>
+<br/>
+
+<div>
+<span><div>3 hours.</div><div><br/></div><div>Met with several key members of the group at the weekly games night and discussed the start of the project. </div><div><br/></div><div>This was the first time that the scope of the project has first looked overwhelming because of all the different ways that one could implement matchmaking and all the different variations of the algorithm.</div><div><br/></div><div>One member thought that interface was the most important aspect of the product, so that users would be more inclined to use it.</div><div><br/></div><div>There was more difficulty in starting the night this week, as there were more than expected other customers at the venue, causing some crowding. Once roll call began, the night was better than usual as there were slightly fewer members present. I took a couple of photos of the room.</div></span>
+</div>
+<hr>
+<a name="3885"/>
+<h1>Planning and decisions</h1>
+<div>
+<table bgcolor="#D4DDE5" border="0">
+<tr><td><b>Created:</b></td><td><i>21/02/2016 21:43</i></td></tr>
+</table>
+</div>
+<br/>
+
+<div>
+<span><div>5 hours.</div><div><br/></div><div>Have decided to transfer my log book to Evernote, as it is saved in chronological order, I can more easily update it from my mobile and it allows images to be taken of handwritten notes and diagrams.</div><div><br/></div><div>I have continued typing up my considerations of goals, skills and resources.</div><div><br/></div><div>Am having trouble finding the right way to describe the infrastructure decisions that I've made. Contacted tutor about justification of tools - has suggested that I show that I have at least thought about other options.</div></span>
+</div>
+<hr>
+<a name="3886"/>
+<h1>Snapshot</h1>
+<div>
+<table bgcolor="#D4DDE5" border="0">
+<tr><td><b>Created:</b></td><td><i>21/02/2016 21:41</i></td></tr>
+</table>
+</div>
+<br/>
+
+<div><span style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div></div><div><img src="Evernote.enex_files/IMG_20160221_214056.512.jpg" type="image/jpeg"/></div><div></div></span>
+</div>
+<hr>
+<a name="3888"/>
+<h1>Previous Logbook</h1>
+<div>
+<table bgcolor="#D4DDE5" border="0">
+<tr><td><b>Created:</b></td><td><i>21/02/2016 15:37</i></td></tr>
+</table>
+</div>
+<br/>
+
+<div>
+<span><div><table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: 1px solid rgb(211, 211, 211);table-layout:fixed;width:73.27800829875518%;" width="1319"><tr style="height:72.0pt"><td height="96" style="height: 72pt; color: white; font-weight: 700; text-decoration: none; text-underline-style: none; font-family: &apos;Bookman Old Style&apos;; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(241, 239, 235); border-left-style: none; background-color: rgb(210, 206, 196); background-position: initial initial; background-repeat: initial initial;width:8.833522083805208%;" width="106"><div>Date</div></td><td style="color: rgb(0, 155, 203); font-weight: 700; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: white; background-position: initial initial; background-repeat: initial initial;width:4.756511891279728%;" width="58"><div>time</div></td><td style="color: rgb(81, 75, 60); font-weight: 400; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: white; background-position: initial initial; background-repeat: initial initial;width:6.5685164212910525%;" width="84"><div>hours</div></td><td style="color: rgb(81, 75, 60); font-weight: 400; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: white; background-position: initial initial; background-repeat: initial initial;width:23.78255945639864%;" width="531"><div>Work</div></td><td style="color: rgb(81, 75, 60); font-weight: 400; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: white;width:25.141562853907136%;" width="245"><div>Problems</div></td><td style="color: rgb(81, 75, 60); font-weight: 400; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: white;width:30.804077010192525%;" width="245"><div>Comments</div></td></tr><tr style="height:72.0pt"><td height="96" style="height: 72pt; color: white; font-weight: 700; text-decoration: none; text-underline-style: none; font-family: &apos;Bookman Old Style&apos;; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(241, 239, 235); border-left-style: none; background-color: rgb(210, 206, 196); background-position: initial initial; background-repeat: initial initial;width:8.60215053763441%;" width="106">17/02/16</td><td style="color: rgb(0, 155, 203); font-weight: 700; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: white; background-position: initial initial; background-repeat: initial initial;width:4.594330400782014%;" width="58">19:00</td><td style="color: rgb(81, 75, 60); font-weight: 400; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: white; background-position: initial initial; background-repeat: initial initial;width:6.647116324535679%;" width="84">2</td><td style="color: rgb(81, 75, 60); font-weight: 400; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: white; background-position: initial initial; background-repeat: initial initial;width:23.949169110459433%;" width="531">Following reading of module materials, set up project gantt plan, project log and git repositories</td><td style="color: rgb(81, 75, 60); font-weight: 400; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: white;width:21.309872922776147%;" width="245">Difficult to gauge which software to use for planning and how in depth the plan should be. Trying to work out a nice way of keeping a project log but still utilise the gantt functionality. Settled on this spreadsheet.</td><td style="color: rgb(81, 75, 60); font-weight: 400; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: white;width:34.799608993157385%;" width="245">Decided to separate the project documents and development files, so that the development can be more easily scrapped and restarted if things go wrong.</td></tr><tr style="height:36.0pt"><td height="48" style="height: 36pt; width: 80pt; color: white; font-weight: 700; text-decoration: none; text-underline-style: none; font-family: &apos;Bookman Old Style&apos;; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: rgb(210, 206, 196); background-position: initial initial; background-repeat: initial initial;" width="106">17/02/16</td><td style="width: 44pt; color: rgb(0, 155, 203); font-weight: 700; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: white; background-position: initial initial; background-repeat: initial initial;" width="58">20:00</td><td style="width: 63pt; color: rgb(81, 75, 60); font-weight: 400; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: white; background-position: initial initial; background-repeat: initial initial;" width="84">1</td><td style="width: 398pt; color: rgb(81, 75, 60); font-weight: 400; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: white; background-position: initial initial; background-repeat: initial initial;" width="531">Writing up project goals, resources,<span style="mso-spacerun:yes"> </span></td><td style="width: 184pt; color: rgb(81, 75, 60); font-weight: 400; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: white; background-position: initial initial; background-repeat: initial initial;" width="245"><br/></td><td style="width: 184pt; color: rgb(81, 75, 60); font-weight: 400; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: white; background-position: initial initial; background-repeat: initial initial;" width="245">Initially hand writing ideas for quicker thought process. May need to take photos for assessment?</td></tr><tr style="height:60.0pt"><td height="80" style="height: 60pt; width: 80pt; color: white; font-weight: 700; text-decoration: none; text-underline-style: none; font-family: &apos;Bookman Old Style&apos;; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: rgb(210, 206, 196); background-position: initial initial; background-repeat: initial initial;" width="106">19/02/16</td><td style="width: 44pt; color: rgb(0, 155, 203); font-weight: 700; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: white; background-position: initial initial; background-repeat: initial initial;" width="58">22:00</td><td style="width: 63pt; color: rgb(81, 75, 60); font-weight: 400; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: white; background-position: initial initial; background-repeat: initial initial;" width="84">3</td><td style="width: 398pt; color: rgb(81, 75, 60); font-weight: 400; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: white; background-position: initial initial; background-repeat: initial initial;" width="531">Reading of M258 module materials, fleshing out of planner and thinking of initial structure for TMA. Setting up planner for recording risks and issues - can be used to track bugs, as well as requirements and RFCs. Posted on BGG, asking for advice on similar software. Reading on RAID concepts</td><td style="width: 184pt; color: rgb(81, 75, 60); font-weight: 400; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: white; background-position: initial initial; background-repeat: initial initial;" width="245">Need to write thoughts down more, so that I can order my thinking more.</td><td style="width: 184pt; color: rgb(81, 75, 60); font-weight: 400; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-width: 0.5pt; border-bottom-style: solid; border-bottom-color: rgb(217, 217, 217); border-left-style: none; background-color: white; background-position: initial initial; background-repeat: initial initial;" width="245">Considering using Evernote or similar for a logbook so that I can include pictures of notes and links/bookmarks, etc. - would also make reading on mobile easier than spreadsheet</td></tr><tr style="height:24.0pt"><td height="32" style="height: 24pt; width: 80pt; color: white; font-weight: 700; text-decoration: none; text-underline-style: none; font-family: &apos;Bookman Old Style&apos;; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-style: none; border-left-style: none; background-color: rgb(210, 206, 196); background-position: initial initial; background-repeat: initial initial;" width="106">20/02/16</td><td style="width: 44pt; color: rgb(0, 155, 203); font-weight: 700; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-style: none; border-left-style: none; background-color: white; background-position: initial initial; background-repeat: initial initial;" width="58">18:00</td><td style="width: 63pt; color: rgb(81, 75, 60); font-weight: 400; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-style: none; border-left-style: none; background-color: white; background-position: initial initial; background-repeat: initial initial;" width="84">3</td><td style="width: 398pt; color: rgb(81, 75, 60); font-weight: 400; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-style: none; border-left-style: none; background-color: white; background-position: initial initial; background-repeat: initial initial;" width="531">Writing notes about core ideas of project / product breakdown. Starting to put initial notes into TMA document; reading about stakeholders and risks/ethics/data protection.</td><td style="width: 184pt; color: rgb(81, 75, 60); font-weight: 400; text-decoration: none; text-underline-style: none; font-family: Calibri; border-top-width: 0.5pt; border-top-style: solid; border-top-color: rgb(217, 217, 217); border-right-style: none; border-bottom-style: none; border-left-style: none; background-color: white; background-position: initial initial; background-repeat: initial initial;" width="245"><br/></td><td style="width:184pt;font-size:9.0pt;color:#514B3C; font-weight:400;text-decoration:none;text-underline-style:none;text-line-through: none;font-family:Calibri;border-top:.5pt solid #D9D9D9;border-right:none; border-bottom:none;border-left:none;background:white;mso-pattern:black none" width="245"><br/></td></tr></table></div></span>
+</div></body></html> 
